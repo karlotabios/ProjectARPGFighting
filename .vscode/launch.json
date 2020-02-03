@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ProjectFightingARPG (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPG Win64 Debug Build",
+			"program": "D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPG (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPG Win64 DebugGame Build",
+			"program": "D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPG (Development)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPG Win64 Development Build",
+			"program": "D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPG (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPG Win64 Shipping Build",
+			"program": "D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPG (Test)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPG Win64 Test Build",
+			"program": "D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPGEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPGEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPGEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPGEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ProjectFightingARPGEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ProjectFightingARPGEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+		}
+	]
+}

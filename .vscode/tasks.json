@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ProjectFightingARPG Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Shipping",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Shipping",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Shipping",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Test",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Test",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win32",
+				"Test",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Shipping",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Shipping",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Shipping",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Test",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Test",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPG Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPG Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPG",
+				"Win64",
+				"Test",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPGEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"Debug",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPGEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ProjectFightingARPGEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		},
+		{
+			"label": "ProjectFightingARPGEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ProjectFightingARPGEditor",
+				"Win64",
+				"Development",
+				"D:\\Users64\\Karlo\\Desktop\\Game Development\\Projects\\ProjectFightingARPG\\ProjectFightingARPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+			}
+		}
+	]
+}
